@@ -1,0 +1,24 @@
+eval "$(thefuck --alias)"
+
+# golang
+export GOPATH=$HOME/go
+export GOPATH=$GOPATH:$HOME/workspace/go
+export PATH=$PATH:${GOPATH//://bin:}/bin
+
+# scala
+export SCALA_HOME=/usr/local/scala
+export PATH=$PATH:$SCALA_HOME/bin
+
+# maven
+export MAVEN_HOME=/usr/local/maven
+export PATH=$PATH:$MAVEN_HOME/bin
+
+# alias
+alias c="cat"
+alias vi="vim"
+alias javac="javac -J-Dfile.encoding=utf8"
+alias grep="grep --color=auto"
+
+http://idea.iteblog.com/key.php
+
+zrIgCZ<&+3Bu
